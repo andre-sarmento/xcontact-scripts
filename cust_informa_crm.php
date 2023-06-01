@@ -49,7 +49,7 @@ try{
     $agi->verbose("Entrei no try");
     $uri = "http://x.x.x.x/api/omnipopupservice";
     $agi->verbose($uri);
-    $data([
+    $data = ([
             'codigoAgetne' => "$ramal",
             'telefone' => "$origem",
             'dados' => "$protocolo"
